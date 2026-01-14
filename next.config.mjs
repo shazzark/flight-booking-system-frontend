@@ -1,0 +1,16 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  /* config options here */
+
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*",
+        // destination: "http://localhost:5000/api/:path*",
+        destination: "https://flight-booking-system-backend-api.onrender.com/api/:path*",
+      },
+    ];
+  },
+};
+
+export default nextConfig;
