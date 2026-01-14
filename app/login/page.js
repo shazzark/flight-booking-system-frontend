@@ -161,7 +161,7 @@ export default function LoginPage() {
             </Link>
           </p>
 
-          <div className="mt-6 rounded-lg bg-secondary/50 p-3 text-center text-xs text-muted-foreground">
+          {/* <div className="mt-6 rounded-lg bg-secondary/50 p-3 text-center text-xs text-muted-foreground">
             <p className="font-medium">Demo Accounts:</p>
             <p className="mt-1">
               User: user@example.com / Password: password123
@@ -169,7 +169,7 @@ export default function LoginPage() {
             <p className="mt-1">
               Admin: admin@example.com / Password: admin123
             </p>
-          </div>
+          </div> */}
         </div>
       </motion.div>
     </div>
